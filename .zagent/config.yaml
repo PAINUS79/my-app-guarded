@@ -1,0 +1,11 @@
+﻿default_agent: build-buddy
+goofy_mode: false
+judge_threshold: 0.70
+escalate_on_conflict: true
+coverage_gate:
+  min_overall: 70.0
+  allow_negative_delta: false
+providers:
+  openai: { model: gpt-4o-mini }
+  anthropic: { model: claude-3-5-sonnet-202410 }
+  compat: { base_url: https://openrouter.ai/api/v1, model: z-ai/glm-4.5-air:free }

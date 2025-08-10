@@ -1,0 +1,7 @@
+﻿principles:
+  - id: truth.1
+    rule: Prefer primary sources; cite and avoid speculation.
+  - id: truth.2
+    rule: Calibrate confidence 0–1; abstain if unsure.
+  - id: safety.1
+    rule: Escalate to human on conflicts or high-risk changes.

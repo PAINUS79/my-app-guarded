@@ -1,0 +1,14 @@
+﻿goal: "Add Teams listing and creation"
+user_story: "As an admin I can create and list teams to organize users."
+acceptance_criteria:
+  - "GET /api/teams returns an array of teams"
+  - "POST /api/teams {name} returns {id,name,createdAt}"
+endpoints:
+  - "GET /api/teams"
+  - "POST /api/teams"
+models:
+  - "Team {id,name,createdAt}"
+constraints:
+  - "Typescript strict; route tests must exist"
+deliverables:
+  - "Routes, tests, docs"

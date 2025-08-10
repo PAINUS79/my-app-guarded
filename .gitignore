@@ -1,0 +1,13 @@
+﻿# zagent
+.zagent/.env
+.zagent/logs/
+.zagent/memory/
+# coverage
+coverage/
+coverage.xml
+coverage-summary.json
+# common
+node_modules/
+.venv/
+__pycache__/
+*.pyc

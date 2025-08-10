@@ -1,0 +1,12 @@
+﻿checks:
+  - name: No console.log in server code
+    type: forbid_pattern
+    globs: ['**/server/**.ts','**/src/**.ts']
+    pattern: 'console\.log\('
+  - name: JWT must be validated in /api routes
+    type: require_pattern
+    globs: ['**/api/**.ts']
+    pattern: 'validateJwt\('
+  - name: Lint is clean
+    type: shell
+    command: 'pnpm -w lint'
